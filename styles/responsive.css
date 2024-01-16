@@ -3,5 +3,31 @@
         flex-direction: column;
     }
 
+    .six-section {
+        flex-direction: column;
+        width: 25%;
+    }
+
+    .six-section-img {
+        width: 50%;
+        background-size: cover;
+    }
+
+    .footer-section p {
+        width: 90%;
+    }
+
+    .footer-section-icon {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .footer-section hr {
+        margin-bottom: 15px;
+    }
+
+    .footer-copyright {
+        padding-bottom: 10px;
+    }
 
 }

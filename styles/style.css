@@ -562,6 +562,20 @@ p {
     color: var(--primary-color);
 }
 
+.btn-package {
+    border-radius: 10px;
+    background: var(--primary-color);
+    width: 420px;
+    height: 52px;
+    color: white;
+    text-align: center;
+    margin-left: 380px;
+    margin-right: 380px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 /* Simple Perfect Place To Get Lost section */
 .five-section {
     margin-top: 100px;

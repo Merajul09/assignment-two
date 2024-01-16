@@ -226,3 +226,100 @@ ul {
     font-size: 28px;
     font-weight: 800;
 }
+
+/* Why Choose Us section */
+.third-section {
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div-heading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.div-heading h2 {
+    color: var(--title-color);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.div-heading p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.third-section {
+    width: 100%;
+}
+
+.first-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-box {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.second-box {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.second-row {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    margin: 15px auto;
+}
+
+#common-icon {
+    font-size: 35px;
+    color: #FF5400;
+}
+
+.third-section-head {
+    color: var(--title-color);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.third-section-p {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+}

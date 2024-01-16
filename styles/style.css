@@ -74,3 +74,63 @@ nav ul li a {
 a:hover {
     color: var(--primary-color);
 }
+
+/* banner section */
+
+.banner-section {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80), rgba(19, 19, 24, 0.00)), url(../Images/Group\ 13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner-section h1 {
+    color: #FFF;
+    font-size: 4em;
+    font-weight: 800;
+    text-align: center;
+    position: absolute;
+    margin: 100px 290px 310px 290px;
+    width: 600px;
+    height: 80px;
+}
+
+.banner-section p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 210px 250px 240px 250px;
+    position: absolute;
+    width: 650px;
+    height: 50px;
+}
+
+.banner-section-input {
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    width: 800px;
+    height: 50px;
+    margin: 310px 180px 100px 180px;
+    position: absolute;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.30);
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-section-input input,
+button {
+    width: 175px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFF;
+    outline: 0;
+    border: none;
+    padding-left: 15px;
+}

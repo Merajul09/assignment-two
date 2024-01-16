@@ -324,6 +324,48 @@ ul {
     font-weight: 400;
 }
 
+/* my section */
+.my-section {
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-main-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.my-main-section div {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.my-main-section img {
+    width: 100%;
+}
+
+.my-section h2 {
+    text-align: center;
+    color: var(--title-color);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.my-main-section>div h3,
+h4,
+p {
+    margin: 0;
+    line-height: 35px;
+    font-size: 24px;
+}
+
 /* Deals & Discounts section */
 .four-section {
     margin-top: 100px;

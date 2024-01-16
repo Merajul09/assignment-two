@@ -567,7 +567,7 @@ ul {
 /* Newsletter section */
 .six-section {
     margin-top: 100px;
-    max-width: 80%;
+    max-width: 90%;
     min-width: 400px;
     margin-left: auto;
     margin-right: auto;
@@ -585,7 +585,7 @@ ul {
 }
 
 .six-section-img {
-    width: 50%;
+    width: 60%;
 }
 
 .six-section-div h4 {
@@ -721,17 +721,6 @@ ul {
     font-size: 16px;
     font-weight: 300;
     padding-bottom: 50px;
-}
-
-
-.six-section {
-    flex-direction: column;
-    width: 25%;
-}
-
-.six-section-img {
-    width: 50%;
-    background-size: cover;
 }
 
 .footer-section p {

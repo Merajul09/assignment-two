@@ -134,3 +134,95 @@ button {
     border: none;
     padding-left: 15px;
 }
+
+/* Our Popular Tours section */
+.first-section {
+    display: flex;
+    margin-top: 100px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-section h2 {
+    color: var(--title-color);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.first-section p,
+ul {
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-right: 50px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.first-section ul {
+    margin-left: 15px;
+}
+
+/* Choose Your Destination section */
+.second-section {
+    margin-top: 100px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-section h2 {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.second-section p {
+    color: var(--paragraph-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.row {
+    height: 930px;
+}
+
+.row img {
+    width: 80%;
+}
+
+.row-one,
+.row-two,
+.row-three {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.row-one p {
+    position: absolute;
+}
+
+.row-two p {
+    position: absolute;
+    z-index: 1;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.row-three p {
+    position: absolute;
+    z-index: 1;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}

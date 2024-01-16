@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #FF5400;
+    --title-color: #131318;
+    --paragraph-color: #5A5A5D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* shared styles */
+/* button primary design */
+.button-primary {
+    border-radius: 10px;
+    background: var(--primary-color);
+    height: 52px;
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-primary .fa-solid {
+    margin-right: 5px;
+}
+
+/* header section */
+nav {
+    background-color: #FFF;
+    height: 80px;
+    width: 90%;
+}
+
+label.logo {
+    color: #424247;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 150px;
+    font-weight: bold;
+    position: relative;
+}
+
+#logo-image {
+    right: 15px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #424247;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-color);
+}
